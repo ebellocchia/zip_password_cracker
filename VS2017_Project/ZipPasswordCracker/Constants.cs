@@ -25,7 +25,7 @@ namespace ZipPasswordCracker
     //
     // Class container for global constants
     //
-    class Constants
+    static class Constants
     {
         //
         // Constants
