@@ -107,7 +107,7 @@ namespace ZipPasswordCracker
         #region Private methods
 
         // Crack password
-        public void DoCrackPassword(int    cThreadsNum,
+        private void DoCrackPassword(int    cThreadsNum,
                                     string cInitialPassword)
         {
             // Create cancellation token
