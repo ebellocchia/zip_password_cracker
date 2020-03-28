@@ -6,10 +6,10 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("ZipPasswordCracker")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Multithread brute force zip password cracker")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("")]
+[assembly: AssemblyProduct("Zip Password Cracker")]
 [assembly: AssemblyCopyright("Copyright ©  2020 Emanuele Bellocchia")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
