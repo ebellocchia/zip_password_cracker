@@ -1,4 +1,8 @@
-# Introduction
+# Zip password cracker
+
+[![Build Status](https://travis-ci.com/ebellocchia/zip_password_cracker.svg?branch=master)](https://travis-ci.com/ebellocchia/zip_password_cracker)
+
+## Introduction
 
 This is a small console application, written in C# using Visual Studio 2017, that I made for fun to play around with threads and threads synchronization.\
 The application just tries to find the password of a Zip archive by brute-forcing all the possible combinations. To speed it up, multiple threads are used in order to try more combinations in parallel.\
@@ -6,7 +10,7 @@ Please note that, even with multiple threads, brute-forcing a password is still 
 
 **NOTE:** *(DotNetZip)[https://documentation.help/DotNetZip/About.htm]* library is used internally for handling Zip archives.
 
-# How it works
+## How it works
 
 The way the application works is quite simple:
 - One task is the password producer. It periodically produces a new password and enqueue it to the password queue. Since the producer is usually faster than the consumers, the maximum queue size is limited. If the queue is full, the producer will wait until some consumer dequeues a password.
@@ -16,12 +20,12 @@ The way the application works is quite simple:
 Everything is built by taking advantage of C# task library, so it's quite easy and clean.
 Please note that the application is made for fun and experimenting, so it's not meant to be perfect or optimized.
 
-# Building
+## Building
 
 Just open the Visual Studio solution and build the project in Debug or Release.\
 The output folder is *VS2017_Project\ZipPasswordCracker\bin*.
 
-# Usage
+## Usage
 
 The application can be run as follows:
 
@@ -51,6 +55,6 @@ For example, on my laptop (Intel i7-7700HQ), the best compromise is around 10 th
 
         ZipPasswordCracker.exe -f C:\my_zip_file.zip -l log.txt -n 10 -i 01234
 
-# License
+## License
 
 This software is available under the MIT license.
