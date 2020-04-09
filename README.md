@@ -8,7 +8,7 @@ This is a small console application, written in C# using Visual Studio 2017, tha
 The application just tries to find the password of a Zip archive by brute-forcing all the possible combinations. To speed it up, multiple threads are used in order to try more combinations in parallel.\
 Please note that, even with multiple threads, brute-forcing a password is still very time consuming, so do not expect to be able to crack long passwords (if the password is protected with AES-256 it'll be basically impossible because the trials are too slow).
 
-**NOTE:** *(DotNetZip)[https://documentation.help/DotNetZip/About.htm]* library is used internally for handling Zip archives.
+**NOTE:** [DotNetZip](https://documentation.help/DotNetZip/About.htm) library is used internally for handling Zip archives.
 
 ## How it works
 
