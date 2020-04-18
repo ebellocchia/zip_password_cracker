@@ -1,7 +1,7 @@
 # Zip password cracker
 
 [![Build Status](https://travis-ci.com/ebellocchia/zip_password_cracker.svg?branch=master)](https://travis-ci.com/ebellocchia/zip_password_cracker)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://raw.githubusercontent.com/ebellocchia/zip_password_cracker/master/LICENSE)
 
 ## Introduction
 
